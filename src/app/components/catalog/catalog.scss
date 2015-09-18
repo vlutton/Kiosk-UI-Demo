@@ -1,0 +1,134 @@
+.vertically-centered {
+  vertical-align: middle;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+  height: 3em;
+}
+.slide-pane {
+    position:absolute;
+    right: 0px;
+    top: 8%;
+    bottom: 85px;
+    width: 0px;
+	  background-color: rgba(252, 248, 227,0.90);
+}
+
+#slide-close {
+	//font-size: 112px;
+	height: 120px;
+	position: absolute;
+	top: 50%;
+}
+
+#navi-btn-container-left {
+	position: absolute;
+	top: 50%;
+	left: 5px; 
+}
+
+#navi-btn-container-right {
+	position: absolute;
+	top: 50%;
+	right: 5px; 
+}
+
+.navi-btn {
+	font-size: 2.8em;
+	height: 120px;
+}
+
+/* =====  PRODUCT TILE CSS ========== */
+.catalog_tile {
+    background-color: #ffffff;
+    border: 1px solid #E8E5DC;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quick-info {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.tileInfo {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+.price-label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-title {
+    display: block;
+    font-size: 16px;
+    height: 40px;
+}
+.product-row {
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.product_image_full {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 199px;
+}
+.product-full {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    margin: 15px 0;
+    padding: 15px 19px 14px;
+    position: relative;
+}
+
+.product-information {
+  height: 20em;
+}
+
+.product-full-details {
+  padding-left: 75px; 
+  padding-right: 60px;
+}
+
+/* icons */
+[class^="symbol-"],
+[class*=" symbol-"] {
+  display: inline-block;
+  width: 22px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../../assets/images/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+
+.symbol-gluten-free {
+  background-image: url("../../assets/images/gluten-free-icon.png");
+  background-position: center center;
+}
+
+.symbol-vegetarian {
+  background-image: url("../../assets/images/vegetarian-icon.png");
+  background-position: center center;
+}
+
+.symbol-low-carb {
+  background-image: url("../../assets/images/low-carb-icon.png");
+  background-position: center center;
+}
+
+.symbol-paleo {
+  background-image: url("../../assets/images/paleo-icon.png");
+  background-position: center center;
+}
